@@ -5,11 +5,11 @@ services:
       container_name: api_app_application
       ports:
         - "5000:80"
-    sql:
-      image: mcr.microsoft.com/mssql/server:2019-latest
-      container_name: sql_server2022
-      ports:
-        - "1433:1433"
-      environment:
-        ACCEPT_EULA: "Y"
-        MSSQL_SA_PASSWORD: "Tenco1234@"
+    # sql:
+    #   image: mcr.microsoft.com/mssql/server:2019-latest
+    #   container_name: sql_server2022
+    #   ports:
+    #     - "1433:1433"
+    #   environment:
+    #     ACCEPT_EULA: "Y"
+    #     MSSQL_SA_PASSWORD: "Tenco1234@"
